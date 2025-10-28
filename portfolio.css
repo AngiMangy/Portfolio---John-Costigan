@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1% 2%;
+    min-height: 10vh;
+    width: 96%;
+    background-color: rgb(1, 88, 122);
+    color: rgb(231, 223, 223);
+}
+header h2{
+    margin-left: 5%;
+}
+#navbar{
+    list-style-type: none;
+    display: flex;
+    margin-right: 5%;
+    flex-wrap: wrap;
+}
+.navItem{
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+}
+/* About Me */
+#aboutMe{
+    margin-top: 0;
+    height: 30vh;
+    background-color: rgb(10, 168, 168);
+    padding-top: 5%;
+}
+#aboutMeText{
+    text-align: center;
+    max-width: 60%;
+    min-height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: rgb(145, 145, 179);
+}
