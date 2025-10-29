@@ -31,9 +31,10 @@ header h2{
 /* About Me */
 #aboutMe{
     margin-top: 0;
-    height: 30vh;
+    min-height: 10vh;
     background-color: rgb(10, 168, 168);
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 #aboutMeText{
     text-align: center;
@@ -42,7 +43,49 @@ header h2{
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
-    border: solid 2px black;
     border-radius: 15px;
     background-color: rgb(145, 145, 179);
+}
+/* Projects */
+#projects{
+    margin-top: 0;
+    min-height: 10vh;
+    background-color: rgb(10, 120, 168);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#projectHeader{
+    display: block;
+    margin-bottom: 1%;
+    background-color: rgb(145, 145, 179);
+    width: 10%;
+    margin: auto;
+    border-radius: 15px;
+}
+#projectText{
+    max-width: 90%;
+    min-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.projectBox{
+    display: inline-block;
+    padding: 1%;
+    width: 20%;
+    min-height: 60%;
+    margin: 0 1%;
+    border-radius: 15px;
+    background-color: rgb(145, 145, 179);
+}
+/* Interests / What I Know */
+#whatIKnow{
+    margin-top: 0;
+    min-height: 10vh;
+    background-color: rgb(10, 168, 120);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
