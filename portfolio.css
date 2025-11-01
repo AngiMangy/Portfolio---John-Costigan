@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+p{
+    font-size: large;
+    line-height: 1.5;
+    font-weight: 500;
+}
 /* Header */
 header{
     display: flex;
@@ -8,9 +13,9 @@ header{
     align-items: center;
     flex-wrap: wrap;
     padding: 1% 2%;
-    min-height: 10vh;
+    min-height: 5vh;
     width: 96%;
-    background-color: rgb(1, 88, 122);
+    background-color: rgb(60, 60, 130);
     color: rgb(231, 223, 223);
 }
 header h2{
@@ -27,12 +32,46 @@ header h2{
     cursor: pointer;
     font-size: large;
     font-weight: 700;
+    text-decoration: none;
+    border: 1px solid lightblue;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.navItem a{
+    color: inherit;
+    text-decoration: none;
+}
+.navItem a:visited{
+    color: inherit;
+}
+.navItem:hover,
+.navItem:focus{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 30, 80);
+}
+/* Intro */
+#introText{
+    display: flex;
+    background-color: rgb(30, 30, 80);
+    color: rgb(231, 223, 223);
+    justify-content: center;
+    align-content: center;
+    padding: 5% 10%;
+    text-align: center;
+}
+#introBox{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 2%;
+    display: inline-block;
+    min-width: 40%;
 }
 /* About Me */
 #aboutMe{
+    background-color: rgb(30, 30, 80);
     margin-top: 0;
     min-height: 10vh;
-    background-color: rgb(10, 168, 168);
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -48,9 +87,9 @@ header h2{
 }
 /* Projects */
 #projects{
+    background-color: rgb(30, 30, 80);
     margin-top: 0;
     min-height: 10vh;
-    background-color: rgb(10, 120, 168);
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
@@ -83,9 +122,46 @@ header h2{
 }
 /* Interests / What I Know */
 #whatIKnow{
+    background-color: rgb(30, 30, 80);
     margin-top: 0;
     min-height: 10vh;
-    background-color: rgb(10, 168, 120);
     padding-top: 5%;
     padding-bottom: 5%;
+    text-align: center;
+}
+#whatIKnowHeader{
+    display: block;
+    margin-bottom: 1%;
+    background-color: rgb(145, 145, 179);
+    width: 10%;
+    margin: auto;
+    border-radius: 15px;
+}
+#knowledgeBoxes{
+    max-width: 90%;
+    min-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.knowledgeBox{
+    display: inline-block;
+    padding: 1%;
+    min-width: 15%;
+    max-width: 30%;
+    min-height: 40%;
+    margin: 0 2%;
+    border-radius: 15px;
+    background-color: rgb(145, 145, 179);
+    text-align: center;
+}
+/* Footer */
+footer{
+    background-color: rgb(60, 60, 130);
+    color: rgb(231, 223, 223);
+    text-align: center;
+    padding: 1% 0;
+    height: 100%;
 }

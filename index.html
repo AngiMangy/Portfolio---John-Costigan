@@ -10,58 +10,99 @@
     <header>
         <h2>John Costigan</h2>
         <ul id="navbar">
-            <li class = "navItem">Home</li>
-            <li class = "navItem">About Me</li>
-            <li class = "navItem">Projects</li>
-            <li class = "navItem">Interests / What I Know</li>
+            <li class="navItem"><a href="#introText">Home</a></li>
+            <li class="navItem"><a href="#projects">Projects</a></li>
+            <li class="navItem"><a href="#whatIKnow">What I Know</a></li>
+            <li class="navItem"><a href="#aboutMe">About Me</a></li>
         </ul>
     </header>
-    <section id = "aboutMe">
-        <div id = "aboutMeText">
-            <h3>About Me</h3>
-            <p>
-                This will be a brief description about myself and my background. and then the link below will take you to a page
-                resembling the resume project earlier in the semester.
-            </p>
-            <a href="">Click Here For More Info</a>
+    <section>
+        <div id = "introText">
+            <div id = "introBox">
+                <h1>Welcome To My Portfolio</h1>
+                <p>
+                    Hello! My name is John Costigan and this is my portfolio, <br> I am a CSET student at Thaddeus Stevens College of Technology,
+                    with an interest in software development and environmental conservation. <br> Here you will find some of the projects I have worked on,
+                    some information about the skills I have learned so far, and a little bit about myself.
+                </p>
+            </div>
         </div>
     </section>
+    
     <section id = "projects">
-        <h3 id="projectHeader">Projects</h3>
+        <h2 id="projectHeader">Projects</h2>
         <div id = "projectText">
             
             <div class="projectBox">
                 <h3>Quiz App</h3>
                 <p>
-                    This is a test paragraph i am typing out so i can see how good these boxes work,
-                    when i submit this project they will all be different and summarize each project.
+                    My quiz app is a simple ten question multiple choice quiz with a variety of topics ranging from
+                    Animal Facts to Sports. It keeps track of your score and gives you a final tally at the end. aswell as tracking
+                    how many times you have taken the quiz. <br>
+                    <strong>Skills used:</strong> JavaScript, HTML, CSS
                 </p>
-                <a href="">Quiz App</a>
+                <a href="https://angimangy.github.io/CSET105---Final---Quiz-App/">Quiz App</a>
             </div>
             <div class="projectBox">
                 <h3>Grocery List</h3>
                 <p>
-                    This is a test paragraph i am typing out so i can see how good these boxes work,
-                    when i submit this project they will all be different and summarize each project.
+                    The Grocery List is a simple form in which watever the user inputs gets added to a list below the form.
+                    It also has a simplistic sorting function to sort from "purchased", "unpurchased" and "all".
+                    A majority of the focus for this project was to show my understanding of JS interacting with HTML. <br>
+                    <strong>Skills used:</strong> JavaScript, HTML, CSS
                 </p>
-                <a href="">Grocery List</a>
+                <a href="https://angimangy.github.io/CSET105---Final---GroceryList/">Grocery List</a>
             </div>
             <div class="projectBox">
                 <h3>Tic-Tac-Toe</h3>
                 <p>
-                    This is a test paragraph i am typing out so i can see how good these boxes work,
-                    when i submit this project they will all be different and summarize each project.
+                    A simple game of Tic-Tac-Toe that two players can play against eachother. Keeps a running tally of wins and ties.
+                    In the future I plan to add a single player mode where you can play against the computer. This project was also Focused on
+                    JS interaction with HTML elements. <br>
+                    <strong>Skills used:</strong> JavaScript, HTML, CSS
                 </p>
-                <a href="">Tic-Tac-Toe</a>
+                <a href="https://angimangy.github.io/CSET115---Final/">Tic-Tac-Toe</a>
             </div>
         </div>
     </section>
     <section id = "whatIKnow">
-        <h3>Interest's / What I Know</h3>
-        <p>
-            Here I will go into my field interests and education. Here there will be another link to a more "professional" resume page.
-        </p>
-        <a href="">Click Here For More Info</a>
+        <h2 id="whatIKnowHeader">What I Know</h2>
+        <div id = "knowledgeBoxes">
+            <div class="knowledgeBox">
+                <h3>JavaScript</h3>
+                <p>
+                    JavaScript is the language in which I feel the most comfortable with as of making this portfolio.
+                    All three of the projects above were made using JavaScript to handle the logic and interaction
+                    with the HTML elements. I feel I have a decent understanding of the basics and some intermediate concepts (DOM manipulation,
+                    functions, arrays, objects etc.) but still have a lot to learn when it comes to more advanced concepts and frameworks
+                    of JavaScript.
+                </p>
+            </div>
+            <div class="knowledgeBox">
+                <h3>HTML/CSS</h3>
+                <p>
+                    Its the backbone of web development. It is what was used to make both this portfolio page aswell as
+                    the web pages for all three of the above projects. At the moment i do believe it is the weakest of my
+                    skillset especially when it comes to manipulation of CSS elements. I am comfortable with basic HTML structure and tags
+                    as well as basic CSS styling but have yet to dive deeper into more complex layouts and designs.
+                </p>
+            </div>
+    </div>
     </section>
+    <section id = "aboutMe">
+        <div id = "aboutMeText">
+            <h2>About Me</h2>
+            <p>
+                My name is John Costigan, I am a freshman at Thadeus Stevens College of Technology studying
+                Computer Software Engineering Technology. I have had an interest with technology and computers Since I was 10
+                with an equally strong interest in Nature and wildlife. My Main goal with CSET is to land myself in a place in which
+                I can work on software that helps protect the environment and wildlife in some way.
+            </p>
+            <a href="https://angimangy.github.io/resume/">Click Here For More Info</a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 John Costigan</p>
+    </footer>
 </body>
 </html>
